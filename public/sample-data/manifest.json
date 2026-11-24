@@ -1,0 +1,50 @@
+[
+  {
+    "file": "inspect_2026-09_track1.csv",
+    "name": "2026-09 下行检测",
+    "inspectDate": "2026-09",
+    "trackNo": 1,
+    "rows": 100001,
+    "driftModel": "gradual"
+  },
+  {
+    "file": "inspect_2026-09_track2.csv",
+    "name": "2026-09 上行检测",
+    "inspectDate": "2026-09",
+    "trackNo": 2,
+    "rows": 100001,
+    "driftModel": "gradual"
+  },
+  {
+    "file": "inspect_2026-10_track1.csv",
+    "name": "2026-10 下行检测",
+    "inspectDate": "2026-10",
+    "trackNo": 1,
+    "rows": 100001,
+    "driftModel": "jump"
+  },
+  {
+    "file": "inspect_2026-10_track2.csv",
+    "name": "2026-10 上行检测",
+    "inspectDate": "2026-10",
+    "trackNo": 2,
+    "rows": 100001,
+    "driftModel": "jump"
+  },
+  {
+    "file": "inspect_2026-11_track1.csv",
+    "name": "2026-11 下行检测",
+    "inspectDate": "2026-11",
+    "trackNo": 1,
+    "rows": 100001,
+    "driftModel": "sine"
+  },
+  {
+    "file": "inspect_2026-11_track2.csv",
+    "name": "2026-11 上行检测",
+    "inspectDate": "2026-11",
+    "trackNo": 2,
+    "rows": 100001,
+    "driftModel": "sine"
+  }
+]
