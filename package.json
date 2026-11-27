@@ -1,0 +1,25 @@
+{
+  "name": "occs-3d-review",
+  "version": "1.0.0",
+  "private": true,
+  "description": "接触网几何检测回放与三维核查系统",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test:align": "tsx scripts/verifyAlignment.ts",
+    "test:business": "tsx scripts/verifyBusiness.ts",
+    "test": "tsx scripts/verifyAlignment.ts && tsx scripts/verifyBusiness.ts"
+  },
+  "dependencies": {
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.7",
+    "@types/three": "^0.169.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}

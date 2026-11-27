@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>接触网几何检测回放与三维核查系统</title>
+  </head>
+  <body>
+    <div id="app">
+      <aside class="sidebar">
+        <div class="brand">
+          <span class="brand-mark">接</span>
+          <div>
+            <div class="brand-title">接触网几何核查</div>
+            <div class="brand-sub">OCCS 3D Review</div>
+          </div>
+        </div>
+        <nav id="nav" class="nav"></nav>
+        <div class="sidebar-foot">
+          <div id="db-status" class="db-status">数据库：初始化中…</div>
+          <button id="btn-seed" class="btn btn-ghost btn-block">载入内置演示数据（50km 双线 / 3 批次）</button>
+        </div>
+      </aside>
+      <main id="view" class="view"></main>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
